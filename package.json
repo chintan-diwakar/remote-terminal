@@ -1,0 +1,30 @@
+{
+  "name": "remote-terminal",
+  "version": "1.0.0",
+  "description": "Access your workspace from anywhere — web terminal, Telegram bot with AI, all secured via Tailscale",
+  "type": "module",
+  "bin": {
+    "remote-terminal": "./bin/remote-terminal.mjs"
+  },
+  "scripts": {
+    "start": "node bin/remote-terminal.mjs start",
+    "dev": "node bin/remote-terminal.mjs start --no-tailscale"
+  },
+  "dependencies": {
+    "@xterm/addon-fit": "^0.10.0",
+    "@xterm/addon-web-links": "^0.11.0",
+    "@xterm/xterm": "^5.5.0",
+    "chalk": "^5.4.1",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.0",
+    "express-ws": "^5.0.2",
+    "node-pty": "^1.1.0",
+    "openai": "^6.18.0",
+    "telegraf": "^4.16.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}

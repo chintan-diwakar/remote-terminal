@@ -1,0 +1,30 @@
+{
+  "server": {
+    "port": 7860,
+    "host": "127.0.0.1"
+  },
+  "tailscale": {
+    "enabled": true,
+    "servePorts": [],
+    "useFunnel": false
+  },
+  "telegram": {
+    "enabled": true,
+    "commands": {
+      "status": { "cmd": "git status", "description": "Git status" },
+      "pull": { "cmd": "git pull", "description": "Git pull" },
+      "log": { "cmd": "git log --oneline -10", "description": "Recent commits" },
+      "diff": { "cmd": "git diff --stat", "description": "Git diff summary" },
+      "install": { "cmd": "npm install", "description": "Install dependencies" },
+      "build": { "cmd": "npm run build", "description": "Build project" },
+      "test": { "cmd": "npm test", "description": "Run tests" },
+      "dev": { "cmd": "npm run dev", "description": "Start dev server", "long": true },
+      "ls": { "cmd": "ls -la", "description": "List files" },
+      "branch": { "cmd": "git branch -a", "description": "List branches" }
+    }
+  },
+  "terminal": {
+    "shell": "",
+    "scrollback": 5000
+  }
+}
