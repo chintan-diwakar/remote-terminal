@@ -1,5 +1,23 @@
 # remote-terminal
 
+<p align="center">
+  <img src="remote-terminal.png" alt="remote-terminal logo" width="200">
+</p>
+
+<p align="center">
+  <strong>Your terminal, anywhere.</strong><br>
+  Access your dev workspace via browser, Telegram, or AI — secured with Tailscale.
+</p>
+
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#quick-start">Quick Start</a> •
+  <a href="#telegram-bot-commands">Telegram Bot</a> •
+  <a href="#llm-mode">LLM Mode</a>
+</p>
+
+---
+
 Access your development workspace from anywhere — via browser, Telegram, or AI assistant.
 
 remote-terminal gives you a secure, portable command center for your codebase. Run commands from your phone, use natural language with AI, or open a full terminal in your browser — all tunneled securely through Tailscale.
