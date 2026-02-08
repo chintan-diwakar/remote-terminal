@@ -1,0 +1,21 @@
+{
+  "app_name": "demo-api",
+  "version": "1.2.0",
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "demo_db"
+  },
+  "api_token": {
+    "value": "sk-demo-token-abc123xyz",
+    "expires_at": "2025-01-15T00:00:00Z"
+  },
+  "ssl_certificate": {
+    "path": "/etc/ssl/demo-cert.pem",
+    "expires_at": "2025-02-01T00:00:00Z"
+  },
+  "cache": {
+    "enabled": true,
+    "ttl_seconds": 3600
+  }
+}
